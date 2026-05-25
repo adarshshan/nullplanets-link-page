@@ -1,4 +1,9 @@
-import { FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedinIn,
+  FaWhatsapp,
+} from "react-icons/fa";
 import "./App.css";
 import LinkCard from "./components/LinkCard";
 import { Globe } from "lucide-react";
@@ -20,11 +25,11 @@ const links = [
     iconColor: "#E1306C", // Instagram Pink
   },
   {
-    href: "https://www.facebook.com/profile.php?id=61590354202604",
-    icon: FaFacebook,
-    platform: "Facebook",
-    label: "Connect with our community",
-    iconColor: "#1877F2", // Facebook Blue
+    href: "https://wa.me/7356683993?text='Hello NullPlanents! I'm interested in your services.",
+    icon: FaWhatsapp,
+    platform: "WhatsApp",
+    label: "Chat with us directly",
+    iconColor: "#25D366", // WhatsApp Green
   },
   {
     href: "https://www.linkedin.com/company/nullplanets-technologies",
@@ -32,6 +37,13 @@ const links = [
     platform: "LinkedIn",
     label: "Professional network & careers",
     iconColor: "#0077B5", // LinkedIn Blue
+  },
+  {
+    href: "https://www.facebook.com/profile.php?id=61590354202604",
+    icon: FaFacebook,
+    platform: "Facebook",
+    label: "Connect with our community",
+    iconColor: "#1877F2", // Facebook Blue
   },
 ];
 function App() {
