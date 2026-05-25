@@ -25,7 +25,7 @@ const links = [
     iconColor: "#E1306C", // Instagram Pink
   },
   {
-    href: "https://wa.me/7356683993?text='Hello NullPlanents! I'm interested in your services.",
+    href: "https://wa.me/7356683993?text=Hello NullPlanents! I'm interested in your services.",
     icon: FaWhatsapp,
     platform: "WhatsApp",
     label: "Chat with us directly",
