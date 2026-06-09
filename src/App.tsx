@@ -59,7 +59,7 @@ function App() {
         {/* Company Logo Placeholder */}
         <img
           src={logo}
-          className="size-20 bg-transparent"
+          className="size-28 bg-transparent rounded-xl"
           alt="//Company Logo"
         />
 
