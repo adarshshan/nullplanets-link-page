@@ -7,7 +7,7 @@ import {
 import "./App.css";
 import LinkCard from "./components/LinkCard";
 import { Globe } from "lucide-react";
-import logo from "./assets/logo.png";
+import logoWhite from "../public/logowhitetheme.png";
 
 const links = [
   {
@@ -48,27 +48,27 @@ const links = [
 ];
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 flex flex-col items-center justify-center p-6 sm:p-12">
+    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6 sm:p-12">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-purple-200/30 dark:bg-purple-900/10 rounded-full blur-3xl"></div>
-        <div className="absolute -bottom-[10%] -right-[10%] w-[40%] h-[40%] bg-blue-200/30 dark:bg-blue-900/10 rounded-full blur-3xl"></div>
+        <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-purple-200/30 rounded-full blur-3xl"></div>
+        <div className="absolute -bottom-[10%] -right-[10%] w-[40%] h-[40%] bg-blue-200/30 rounded-full blur-3xl"></div>
       </div>
 
       <div className="relative w-full max-w-md flex flex-col items-center">
         {/* Company Logo Placeholder */}
         <img
-          src={logo}
+          src={logoWhite}
           className="size-28 bg-transparent rounded-xl"
           alt="//Company Logo"
         />
 
         {/* Header content */}
         <div className="text-center mb-10">
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2 text-nowrap text-gradient">
+          <h1 className="text-3xl font-bold text-gray-900 mb-2 text-nowrap text-gradient">
             Null<span className="">Planets</span> Technologies
           </h1>
-          <p className="text-gray-600 dark:text-gray-400 font-medium">
+          <p className="text-gray-600 font-medium">
             Connect with us everywhere
           </p>
         </div>
@@ -88,7 +88,7 @@ function App() {
 
         {/* Footer */}
         <footer className="mt-12 text-center">
-          <p className="text-sm text-gray-500 dark:text-gray-500">
+          <p className="text-sm text-gray-500">
             © {new Date().getFullYear()} NullPlanets Technologies. All rights
             reserved.
           </p>
